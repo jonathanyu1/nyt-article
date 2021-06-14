@@ -11,6 +11,12 @@ html, body{
     /* font-family: var(--mainFont); */
 }
 
+.bold{
+    font-weight: 700;
+}
+
+/* nav */
+
 .navContainer{
     position: fixed;
     display: flex;
@@ -20,6 +26,7 @@ html, body{
     width: 100%;
     padding: 0 20%;
     height: 3rem;
+    background-color: white;
 }
 
 .navLeft{
@@ -29,6 +36,14 @@ html, body{
 
 .navLeft span{
     padding-left: 20px;
+}
+
+.navLink{
+    font-weight: 700;
+}
+
+.navTitle{
+    display: flex;
 }
 
 .navLogo{
@@ -42,3 +57,188 @@ html, body{
     color: white;
     background-color: #567b95;
 }
+
+/* article header */ 
+
+.mainContainer{
+    padding-top: 7vh;
+    width: 100%;
+}
+
+.articleHeader{
+    width: 100%;
+}
+
+.articleTitle{
+    font-style: italic;
+    /* text-align: center; */
+    width: 700px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.shareLinks{
+    width: 700px;
+    margin: 1% auto;
+    border-top: 1px solid rgb(226, 226, 226);
+    padding-top: 1%;
+}
+
+.shareLinks i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.articleFigure{
+    margin: 2% auto;
+    max-width: 1000px;
+}
+
+.articleFigure img{
+    width: 100%;
+    height: auto;
+}
+
+.figureDescription{
+    color: rgb(85, 85, 85);
+}
+
+.figureAuthor{
+    color:rgb(129, 129, 129);
+    font-size: 13px;
+}
+
+/* article author */ 
+
+.articleAuthor{
+    width: 700px;
+    margin: 1% auto;
+}
+
+.author{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.date{
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+
+/* article body */
+
+.articleBody{
+    /* width: 1000px; */
+    width: 100%;
+    margin: 1% auto;
+}
+
+.articleSection{
+    width: 700px;
+    margin: 1% auto;
+}
+
+.articleParagraph{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.articleBodyFigure{
+    margin: 2% auto;
+    max-width: 1000px;
+}
+
+.articleBodyImg{
+    width: 100%;
+}
+
+.articleFigureLine{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.articleFigureCaption span{
+    font-size: 14px;
+}
+
+.articleEmbed{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.articleEmbedCaption{
+    margin: 1% 0 3%;
+}
+
+.embedCaptionTitle{
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+}
+
+.embedAuthor{
+    color:rgb(129, 129, 129);
+    font-size:12px;
+}
+
+.captionDescription{
+    color: rgb(85, 85, 85);
+}
+
+.captionAuthor{
+    color:rgb(129, 129, 129);
+    margin-bottom: 3%;
+}
+
+/* links */ 
+
+.pageLinks{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+}
+
+.linksLogo{
+    margin-top: 10px;
+}
+
+.pageLinksColumns{
+    display: flex;
+}
+
+.pageLinksColumns ul{
+    list-style: none;
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.pageLinksColumns li{
+    margin: 5px 0;
+    font-weight: lighter;
+}
+
+.columnTitle{
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(19, 19, 19);
+}
+
+/* footer */
+.footerContainer{
+    padding: 0 1% 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.footerContainer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer li{
+    font-size: 14px;
+    color:rgb(129, 129, 129);
+    padding: 0 10px;
+}
+
